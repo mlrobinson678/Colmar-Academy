@@ -1,0 +1,39 @@
+header {
+    background-color: white;
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.header-left {
+display: inline-flex;
+padding: 0px 0px 0px 24px;
+align-items: center;
+}
+.header-right {
+    display: inline-flex;
+    padding: 0px 24px 0px 0px;
+    align-items: center;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+.menu-option {
+    padding: 0px 0px 0px 16px;
+}
+.logo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+}
+.colmar {
+    color: black;
+}
+.academy {
+    color: gray;
+}
+.header-left img {
+    height: 50px;
+}
